@@ -15,10 +15,12 @@ public class RollerCoaster extends ConsoleProgram
     {
         boolean tallEnough = readBoolean("Are you tall enough? ");
         boolean oldEnough = readBoolean("Are you old enough? ");
-        if(tallEnough && oldEnough){
+        if(tallEnough && oldEnough)
+        {
             System.out.print(true);
         }
-        else{
+        else
+        {
             System.out.print(false);
         }
     }
